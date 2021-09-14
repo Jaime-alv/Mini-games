@@ -18,16 +18,7 @@ For example, if the secret number was 2148 and your guess was 8439, the clues wo
 \nHave fun!'''.format(str(Config['length']), str(Config['num_tries']))
 
 
-def greetings():
-    print('Hi. What is your name?')
-    while True:
-        Player['Name'] = input()
-        if Player['Name'] != '':
-            print('Hello, ' + Player['Name'] + ". Nice to meet you!")
-            break
-        else:
-            error()
-            print('Please, tell me your name.')
+def main():
     while True:
         print('Do you need information about the game, or want different rules?(y/n)')
         answer = questions()
@@ -239,4 +230,13 @@ def restart():
 
 
 if __name__ == "__main__":
-    greetings()
+    print('Hi. What is your name?')
+    while True:
+        Player['Name'] = input()
+        if Player['Name'] != '':
+            print('Hello, ' + Player['Name'] + ". Nice to meet you!")
+            break
+        else:
+            error()
+            print('Please, tell me your name.')
+    main()
