@@ -1,7 +1,7 @@
 # A classic rock, paper, scissors game. Computer draws an option, you write another and compare results.
 # Scissors wins paper, paper wins rock, rock wins scissors.
 # You can exit the program at any time by typing 'q'
-__author__ = 'jaime.alv.fdz@gmail.com'
+# Copyright (C) 2021 Jaime Álvarez Fernández
 
 import random
 
@@ -40,7 +40,7 @@ def check_player():
             return player
 
 
-def config():
+def main():
     print('Welcome to the game!')
     print('This is the configuration center')
     while True:
@@ -85,4 +85,4 @@ def goodbye():
 
 
 if __name__ == "__main__":
-    config()
+    main()

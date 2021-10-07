@@ -1,7 +1,7 @@
 # This is a guess the number game
 # You have 5 tries or you'll lose the game
 # The game tracks wins/loses ratio
-__author__ = 'jaime.alv.fdz@gmail.com'
+# Copyright (C) 2021 Jaime Álvarez Fernández
 
 import random
 
@@ -10,7 +10,7 @@ lose_global = 0
 name_global = ''
 
 
-def greetings():
+def main():
     global name_global
     print('Hi. What is your name?')
     name = input()
@@ -76,4 +76,4 @@ def restart():
 
 
 if __name__ == "__main__":
-    greetings()
+    main()

@@ -1,6 +1,6 @@
 # In Bagels, a deductive logic game, you must guess a secret four-digit number based on clues.
 # A version of this game is featured in the book "The Big Book of Small Python Projects" by Al Sweigart.
-__author__ = 'jaime.alv.fdz@gmail.com'
+# Copyright (C) 2021 Jaime Álvarez Fernández
 
 import random
 import sys
