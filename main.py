@@ -1,6 +1,7 @@
-from games import bagels
+# Copyright (C) 2021 Jaime Álvarez Fernández
+from games import bagels, guess_the_number, rock_paper_scissors
 
-games = {'bagels': bagels}
+games = {'bagels': bagels, 'guess the number': guess_the_number, 'rock, paper, scissors': rock_paper_scissors}
 
 
 def main():
@@ -23,6 +24,7 @@ def main():
             print('Please, enter a valid input!')
     print('Choose a game you want to play')
 
-#print(games['bagels'])
+
+# print(games['bagels'])
 if __name__ == "__main__":
     main()
